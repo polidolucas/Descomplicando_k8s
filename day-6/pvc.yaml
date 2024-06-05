@@ -11,5 +11,6 @@ spec:
     requests:
       storage: 1Gi
   storageClassName: anakin-sc
-  matchLabels:
-    storage: nfs
+  selector:
+    matchLabels:
+      storage: nfs
